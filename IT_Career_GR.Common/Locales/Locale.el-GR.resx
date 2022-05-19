@@ -117,7 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Επιβεβαίωση κωδικού</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Ξέχασες τον κωδικό σου;</value>
+  </data>
   <data name="LogIn" xml:space="preserve">
     <value>Είσοδος</value>
+  </data>
+  <data name="LogInDesc" xml:space="preserve">
+    <value>Χρησιμοποιήστε τον λογαριασμό σας για να συνδεθείτε.</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>Έξοδος</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Κωδικός</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Εγγραφή</value>
+  </data>
+  <data name="RegisterNewAccount" xml:space="preserve">
+    <value>Δημιουργήστε καινούριο λογαριασμό για να συνεχίσετε.</value>
   </data>
 </root>

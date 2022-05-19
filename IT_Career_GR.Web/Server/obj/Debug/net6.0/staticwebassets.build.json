@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jJFqx8PG34AWmeyk2kDxnSGgoeB7mGGu2YOMIziHcL8=",
+  "Hash": "+5r96OCorkNvzLL5o0tDZd1ysHgcZ8PJO0KqGPgwEHI=",
   "Source": "IT_Career_GR.Web.Server",
   "BasePath": "_content/IT_Career_GR.Web.Server",
   "Mode": "Default",
@@ -8228,6 +8228,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\authentication.css"
+    },
+    {
+      "Identity": "D:\\Projects\\Personal\\IT_Career_GR\\IT_Career_GR.Web\\Server\\wwwroot\\css\\common.css",
+      "SourceId": "IT_Career_GR.Web.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Personal\\IT_Career_GR\\IT_Career_GR.Web\\Server\\wwwroot\\",
+      "BasePath": "_content/IT_Career_GR.Web.Server",
+      "RelativePath": "css/common.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\common.css"
     },
     {
       "Identity": "D:\\Projects\\Personal\\IT_Career_GR\\IT_Career_GR.Web\\Server\\wwwroot\\css\\site.css",

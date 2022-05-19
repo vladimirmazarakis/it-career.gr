@@ -1,7 +1,9 @@
-﻿@using Microsoft.AspNetCore.Hosting
+﻿@using IT_Career_GR.Common.Services.Abstractions
+@using Microsoft.AspNetCore.Hosting
 @using Microsoft.AspNetCore.Mvc.ViewEngines
 @inject IWebHostEnvironment Environment
 @inject ICompositeViewEngine Engine
+@inject ICustomLocalizer localizer
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,6 +22,7 @@
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     </environment>
+    <link rel="stylesheet" href="~/css/common.css"/>
 </head>
 <body>
     <header>
@@ -31,6 +34,15 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <a class="it-link mx-3" asp-area="Identity" asp-page="Register">@localizer["Register"]</a>
+                        <a class="it-link mx-3" asp-area="Identity" asp-page="Login">@localizer["LogIn"]</a>
+                    }
+                    else
+                    {
+                        <a class="it-link mx-3" asp-area="Identity" asp-page="Logout">@localizer["LogOut"]</a>
+                    }
                 </div>
             </div>
         </nav>
