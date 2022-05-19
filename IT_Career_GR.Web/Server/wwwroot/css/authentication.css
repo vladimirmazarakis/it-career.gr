@@ -1,5 +1,15 @@
-﻿.title {
-    text-align: center;
+﻿.it-login-title {
+    text-align: left;
+}
+
+.it-login-desc{
+    font-size: 20px;
+}
+
+.it-login-block {
+    -webkit-box-shadow: 0px 0px 10px 0px #000000;
+    box-shadow: 0px 0px 10px 0px #000000;
+    padding: 10px;
 }
 
 .inside-block {

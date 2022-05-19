@@ -7,8 +7,8 @@ using Microsoft.AspNetCore.Identity;
 using System.Globalization;
 using Microsoft.AspNetCore.Localization;
 using IT_Career_GR.Web.Server.Extensions;
-
-
+using IT_Career.GR.Core.Services.Abstractions;
+using IT_Career.GR.Core.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,12 +20,14 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddSingleton(builder.Configuration);
 
+builder.Services.AddTransient<IEmailSender, EmailSender>();
+
 builder.Services.AddCustomLocalization();
 
-builder.Services.AddLocalization();
-
-builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddDefaultIdentity<ApplicationUser>(options => 
+{
+    options.SignIn.RequireConfirmedAccount = true;
+}).AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddIdentityServer()
     .AddApiAuthorization<ApplicationUser, ApplicationDbContext>();

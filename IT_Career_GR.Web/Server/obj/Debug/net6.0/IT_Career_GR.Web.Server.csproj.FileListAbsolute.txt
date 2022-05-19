@@ -311,3 +311,4 @@ D:\Projects\Personal\IT_Career_GR\IT_Career_GR.Web\Server\obj\Debug\net6.0\ref\I
 D:\Projects\Personal\IT_Career_GR\IT_Career_GR.Web\Server\bin\Debug\net6.0\IT_Career.GR.Core.dll
 D:\Projects\Personal\IT_Career_GR\IT_Career_GR.Web\Server\bin\Debug\net6.0\IT_Career.GR.Core.pdb
 D:\Projects\Personal\IT_Career_GR\IT_Career_GR.Web\Server\bin\Debug\net6.0\el-GR\IT_Career_GR.Common.resources.dll
+D:\Projects\Personal\IT_Career_GR\IT_Career_GR.Web\Server\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
