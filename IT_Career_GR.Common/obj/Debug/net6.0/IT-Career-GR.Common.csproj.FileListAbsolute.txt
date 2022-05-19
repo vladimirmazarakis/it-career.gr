@@ -1,0 +1,12 @@
+D:\Projects\Personal\IT_Career_GR\IT_Career_GR.Common\bin\Debug\net6.0\IT_Career_GR.Common.deps.json
+D:\Projects\Personal\IT_Career_GR\IT_Career_GR.Common\bin\Debug\net6.0\IT_Career_GR.Common.dll
+D:\Projects\Personal\IT_Career_GR\IT_Career_GR.Common\bin\Debug\net6.0\IT_Career_GR.Common.pdb
+D:\Projects\Personal\IT_Career_GR\IT_Career_GR.Common\obj\Debug\net6.0\IT_Career_GR.Common.csproj.AssemblyReference.cache
+D:\Projects\Personal\IT_Career_GR\IT_Career_GR.Common\obj\Debug\net6.0\IT_Career_GR.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Personal\IT_Career_GR\IT_Career_GR.Common\obj\Debug\net6.0\IT_Career_GR.Common.AssemblyInfoInputs.cache
+D:\Projects\Personal\IT_Career_GR\IT_Career_GR.Common\obj\Debug\net6.0\IT_Career_GR.Common.AssemblyInfo.cs
+D:\Projects\Personal\IT_Career_GR\IT_Career_GR.Common\obj\Debug\net6.0\IT_Career_GR.Common.csproj.CoreCompileInputs.cache
+D:\Projects\Personal\IT_Career_GR\IT_Career_GR.Common\obj\Debug\net6.0\IT_Career_GR.Common.dll
+D:\Projects\Personal\IT_Career_GR\IT_Career_GR.Common\obj\Debug\net6.0\refint\IT_Career_GR.Common.dll
+D:\Projects\Personal\IT_Career_GR\IT_Career_GR.Common\obj\Debug\net6.0\IT_Career_GR.Common.pdb
+D:\Projects\Personal\IT_Career_GR\IT_Career_GR.Common\obj\Debug\net6.0\ref\IT_Career_GR.Common.dll
